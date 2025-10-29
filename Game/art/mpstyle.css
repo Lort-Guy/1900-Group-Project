@@ -1,0 +1,13 @@
+
+:root {
+	--lizbrocolor: red;
+}
+
+#titleText {
+	background-color: red;
+}
+
+.small {
+	color: var(--lizbrocolor);
+
+}
