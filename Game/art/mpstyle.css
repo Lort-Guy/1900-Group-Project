@@ -1,13 +1,31 @@
 
 :root {
-	--lizbrocolor: red;
+	--lizbrocolor: blue;
 }
 
 #titleText {
 	background-color: red;
 }
 
-.small {
+#underTitle {
 	color: var(--lizbrocolor);
 
+}
+#charselectText {
+	color: white;
+	background-image: linear-gradient(to bottom, blue, yellow);
+}
+#wipCHARtext {
+	
+	background-image: linear-gradient(to top, yellow, red);
+	text-align: center;
+	justify-content: center;
+	visibility: hidden;
+	font: Helvetica;
+	display: flex;
+}
+#knight:hover {
+	#wipCHARtext {
+		visibility: visible;
+	}
 }
