@@ -15,7 +15,13 @@
 	color: white;
 	background-image: linear-gradient(to bottom, blue, yellow);
 }
-#wipCHARtext {
+.knightbutton {
+	visibility: visible;
+}
+.knight {
+	visibility: hidden;
+}
+.hiddenMsg {
 	
 	background-image: linear-gradient(to top, yellow, red);
 	text-align: center;
@@ -24,9 +30,6 @@
 	font: Helvetica;
 	display: flex;
 }
-#knight:hover {
-	&{ #wipCHARtext {
-		visibility: visible;
-		}
-	}
+.knight:hover {
+	visibility: visible;
 }
