@@ -25,7 +25,8 @@
 	display: flex;
 }
 #knight:hover {
-	#wipCHARtext {
+	&{ #wipCHARtext {
 		visibility: visible;
+		}
 	}
 }
