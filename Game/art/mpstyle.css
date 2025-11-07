@@ -1,21 +1,60 @@
 
 :root {
-	--lizbrocolor: blue;
+	--lizbrocolor: gold;
 }
 
-#titleText {
-	background-color: red;
+.back{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	visibility: hidden;
+	position: sticky;
+	top: 0;
 }
+
+
+
+#titleText {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	
+	position: sticky;
+	top: 0;
+	
+}
+#titlegame {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#qddimg {
+	width: 50%;
+}
+
+
+
 
 #underTitle {
 	color: var(--lizbrocolor);
-
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.charselect {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #charselectText {
+	
 	width: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	
+	
 }
 .knightbutton {
 	
@@ -48,4 +87,20 @@
 .traveler {
 	display: flex;
 	justify-content: center;
+}
+
+#backbutton {
+
+	object-fit: fill;
+	visibility: visible;
+	
+}
+.back:hover{
+	visibility: visible;
+}
+
+.startbutton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
