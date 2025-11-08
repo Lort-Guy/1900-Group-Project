@@ -18,20 +18,31 @@
 	
 	</header>
 	<body>
-		
-		
 		<h2 class="charselect"><img id="charselectText" src="art/Chooseyourcharacter.svg"></h2>
-		<form action="traveler/startTjourney.html" class="traveler">
-			<button id="traveler" >TRAVELER</button>
-		</form>
-		<div class="knight" >
-			<button  class="knightbutton" type="button">KNIGHT</button>
-			<p id="wipCHARtext" >I THINK YOU MEANT TO PICK THE TRAVELER...</p>
-		
+		<div id="characterselectdiv">
+			
+			<form action="Traveler/startTjourney.html" class="traveler">
+				<input type="image" id="travelerid" src="Traveler/t-Art/travelerCopy.svg" width="100%"></input>
+				<label for="travelerid" id="travLabel">TRAVELER</label>
+			</form>
+			
+			<form class="knight" action="Knight/startKjourney.html">
+				<input id="knightbutton" type="image" src="WIP.jpg" ></input>
+				<p id="wipCHARtext" >  I THINK YOU MEANT TO PICK THE TRAVELER...  </p>
+				<label for="knightbutton" id="kniLabel">KNIGHT</label>
+			</form>
+			
 		</div>
-	
 		
 	</body>
+	
+	<footer>
+		<p>
+		
+		
+		
+		</p>
+	</footer>
 	
 
 </HTML>
