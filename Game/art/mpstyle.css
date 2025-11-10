@@ -1,51 +1,146 @@
 
 :root {
-	--lizbrocolor: blue;
+	--lizbrocolor: gold;
+	
 }
 
-#titleText {
-	background-color: red;
+
+#characterselectdiv{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	
 }
+
+
+@font-face{
+	font-family: vastrex-demo;
+	src: url(vastrex-demo.regular.otf);
+}
+.back{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	visibility: hidden;
+	position: sticky;
+	top: 0;
+}
+
+
+
+#titleText {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	
+	position: sticky;
+	top: 0;
+	
+}
+#titlegame {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#qddimg {
+	width: 50%;
+}
+
+
+
 
 #underTitle {
 	color: var(--lizbrocolor);
-
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: vastrex-demo, vastrex-demo;
+	top: 10px;
+	position: sticky;
+}
+.charselect {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #charselectText {
+	
 	width: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	
+	
 }
-.knightbutton {
+
+#knightbutton {
 	
-	
+	width: 40%;
 	align-items: center;
 	justify-content: center;
+	visibility: visible;
+}
+#kniLabel {
+	justify-content: center;
+	display: flex;
+	align-content: center;
+	font-family: vastrex-demo, vastrex-demo;
 	visibility: visible;
 }
 .knight {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	visibility: hidden;
 	
 }
 #wipCHARtext {
 	
-	background-image: linear-gradient(to top, yellow, red);
+	background-image: radial-gradient(circle, red, yellow);
 	text-align: bottom;
 	justify-content: bottom;
 	font: Helvetica;
 	align-items: center;
 	display: flex;
-	color: white;
+	color: black;
+	font-family: vastrex-demo, vastrex-demo;
 }
 .knight:hover {
 	visibility: visible;
 }
+#travLabel {
+	justify-content: center;
+	display: flex;
+	align-content: center;
+}
+
+
 .traveler {
 	display: flex;
 	justify-content: center;
+	font-family: vastrex-demo, vastrex-demo;
+	align-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#backbutton {
+
+	object-fit: fill;
+	visibility: visible;
+	
+}
+.back:hover{
+	visibility: visible;
+}
+
+.startbutton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#backtext {
+	font-family: vastrex-demo, vastrex-demo;
 }
