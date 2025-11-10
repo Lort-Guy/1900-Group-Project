@@ -1,0 +1,9 @@
+#qddimg {
+	width: 50%;
+	
+}
+#titlegame {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}

@@ -76,7 +76,7 @@
 
 #knightbutton {
 	
-	width: 40%;
+	width: 60%;
 	align-items: center;
 	justify-content: center;
 	visibility: visible;
@@ -109,6 +109,7 @@
 }
 .knight:hover {
 	visibility: visible;
+	width: 50%;
 }
 #travLabel {
 	justify-content: center;
@@ -124,6 +125,11 @@
 	align-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
+}
+
+.traveler:hover {
+	width: 20%;
+	
 }
 
 #backbutton {
@@ -143,4 +149,8 @@
 }
 #backtext {
 	font-family: vastrex-demo, vastrex-demo;
+}
+
+footer {
+	height: 200px;
 }
