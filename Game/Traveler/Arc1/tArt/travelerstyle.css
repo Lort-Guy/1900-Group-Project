@@ -1,0 +1,64 @@
+:root {
+	--crimson: rgb(156 17 17);
+	
+}
+
+
+@font-face{
+	font-family: vastrex-demo;
+	src: url(../../../art/vastrex-demo.regular.otf);
+}
+
+header{
+	background-color: var(--crimson);
+	
+	border: 5px ridge black;
+	height: 150px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	overflow: clip;
+	padding: 5px;
+	margin: 0px;
+	flex: 1 1 auto;
+	
+	
+
+}
+
+#trav {
+	font-family: vastrex-demo, vastrex-demo;
+	font-size: 400%;
+	justify-content: center;
+	align-items: flex-start;
+	position: relative;
+}
+
+
+body {
+	background-image: radial-gradient(circle, red, red, red, yellow)
+}
+
+
+#qddimg {
+	width: 15%;
+	top: 10px;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-start;
+	
+	
+}
+
+
+
+#arcText {
+	font-family: vastrex-demo, vastrex-demo;
+	font-weight: bold;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 400%;
+	position: relative;
+}
