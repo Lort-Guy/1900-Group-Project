@@ -96,7 +96,12 @@ header{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-image: url(../../art/dialogue/textbox.svg)
+	background-image: url(../../art/dialogue/textbox.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
 	
+	
+	background-size: 100% 100%;
 }
 
