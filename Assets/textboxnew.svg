@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 756 144">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #f79120;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #f58020;
+      }
+
+      .st1, .st2 {
+        stroke-miterlimit: 10;
+      }
+
+      .st3 {
+        fill: #ffe8ca;
+      }
+
+      .st2 {
+        fill: #fff6d7;
+        stroke: #fbb042;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <rect class="st2" x="4.81" y="5.06" width="746.48" height="134.73"/>
+  <g>
+    <line class="st1" x1="9.23" y1="9.43" y2="1.05"/>
+    <line class="st1" x1="9.47" y1="135.41" x2=".49" y2="144"/>
+    <line class="st1" x1="746.77" y1="9.43" x2="756" y2="1.05"/>
+    <line class="st1" x1="746.52" y1="135.41" x2="755.5" y2="144"/>
+  </g>
+  <rect class="st3" x="7.75" width="740.62" height="1.55"/>
+  <rect class="st3" x="7" y="142.3" width="740.62" height="1.55"/>
+  <rect class="st0" x="10.12" y="6.99" width="735.73" height="2.05"/>
+  <rect class="st0" x="10.12" y="136.3" width="735.73" height="2.05"/>
+</svg>
