@@ -141,11 +141,6 @@ header{
 	justify-content: center;
 	font-size: 16pt;
 }
-
-.deathBody {
-	
-}
-
 .deathHeader {
 	background-color: rgb(66, 32, 32);
 	
@@ -159,4 +154,35 @@ header{
 	padding-right: 65px;
 	margin: 0px;
 	
+}
+
+.deathBody {
+	display: flex;
+	background-color: gray;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
+}
+
+
+
+.youdied {
+	display: flex;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
+	margin-bottom: -200px;
+}
+
+.startover {
+	display: flex;
+	width: 100%;
+	align-items:center;
+	justify-content:center;
+}
+
+.deathtext{
+	font-family: quintessential-reg, quintessential-reg;
+	text-align: center;
 }
