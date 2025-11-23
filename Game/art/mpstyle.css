@@ -4,6 +4,10 @@
 	
 }
 
+.charselBody{
+	background-color: rgb(190, 72, 72);
+	border: 10px solid black;
+}
 
 #characterselectdiv{
 	display: flex;
@@ -70,16 +74,21 @@
 #charselectText {
 	
 	width: 50%;
+	margin-top: -20vw;
 	
 	
 }
 
 #knightbutton {
-	
-	width: 60%;
+	display: block;
+	position: relative;
+	width: 250%;
 	align-items: center;
 	justify-content: center;
 	visibility: visible;
+	margin-top: -2vw;
+	margin-bottom: 10vw;
+	margin-right: -5vw;
 }
 #kniLabel {
 	justify-content: center;
@@ -87,6 +96,8 @@
 	align-content: center;
 	font-family: vastrex-demo, vastrex-demo;
 	visibility: visible;
+	margin-left: -2vw;
+	margin-top: -15vw;
 }
 .knight {
 	display: flex;
@@ -99,17 +110,18 @@
 #wipCHARtext {
 	
 	background-image: radial-gradient(circle, red, yellow);
-	text-align: bottom;
-	justify-content: bottom;
+	text-align: center;
+	justify-content: center;
 	font: Helvetica;
 	align-items: center;
+	margin-top: 0vw;
 	display: flex;
 	color: black;
 	font-family: vastrex-demo, vastrex-demo;
 }
 .knight:hover {
 	visibility: visible;
-	width: 50%;
+	width: 20%;
 }
 #travLabel {
 	justify-content: center;
