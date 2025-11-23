@@ -37,11 +37,12 @@ header{
 
 .charname {
 	font-family: vastrex-demo, vastrex-demo;
-	font-size: 400%;
+	font-size: 3vw;
 	justify-content: center;
 	align-items: flex-start;
 	position: relative;
 	color: gold;
+	padding-right: 50px;
 }
 
 
@@ -84,7 +85,7 @@ header{
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 400%;
+	font-size: 3vw;
 	position: relative;
 	color: gold;
 }
@@ -173,16 +174,43 @@ header{
 	justify-content: center;
 	flex-flow: column wrap;
 	margin-bottom: -200px;
+	margin-left: -35px;
 }
 
 .startover {
 	display: flex;
-	width: 100%;
+	width: 50%;
 	align-items:center;
 	justify-content:center;
+	flex-flow: column wrap;
+	margin-left: -10px;
+
+	
+}
+
+.dtDiv{
+	display: flex;
+	flex-flow: column wrap;
+	width: 100%;
 }
 
 .deathtext{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
 	font-family: quintessential-reg, quintessential-reg;
 	text-align: center;
+	font-size: 2vw;
+	position: scroll;
+}
+
+#deathform {
+	display: flex;
+	width: 50%;
+	align-items:center;
+	justify-content:center;
+	flex-flow: column wrap;
+	margin-left: -10px;
+	margin-right: -10px;
 }
