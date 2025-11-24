@@ -17,6 +17,8 @@ body {
 	background-color: rgb(0, 0, 0);
 }
 
+/* Everything in the header */
+
 header{
 	background-color: var(--crimson);
 	
@@ -46,15 +48,7 @@ header{
 }
 
 
-.belowhead {
-	background-color: rgb(190, 72, 72);
-	display: flex;
-	flex-flow: column wrap;
-	
-	height: 800px;
-	justify-content: center;
-	align-items: center;
-}
+
 
 
 .logo {
@@ -68,17 +62,7 @@ header{
 	
 }
 
-.arrows {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: 200px;
-	padding-right: 200px;
-	background-color: rgb(190, 72, 72);
-	margin-top: -15vw;
-	
-}
+
 
 .arcText {
 	font-family: vastrex-demo, vastrex-demo;
@@ -91,6 +75,20 @@ header{
 	color: gold;
 }
 
+/* Everything below the header*/
+
+.belowhead {
+	background-color: rgb(190, 72, 72);
+	display: flex;
+	flex-flow: column wrap;
+	
+	height: 800px;
+	justify-content: center;
+	align-items: center;
+}
+
+/* the center image for the current path*/
+
 .paths {
 	width: 50%;
 	display: block;
@@ -98,6 +96,22 @@ header{
 	margin-top: 2vw;
 	border: 10px ridge var(--crimson);
 	
+	
+}
+
+
+
+/* Dialogue and arrows*/
+
+.arrows {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: rgb(190, 72, 72);
+	margin-top: -5vw;
 	
 }
 
@@ -143,6 +157,9 @@ header{
 	justify-content: center;
 	font-size: 3vw;
 }
+
+/* Death template css */
+
 .deathHeader {
 	background-color: rgb(66, 32, 32);
 	
