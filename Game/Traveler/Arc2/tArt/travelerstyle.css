@@ -82,7 +82,7 @@ header{
 	display: flex;
 	flex-flow: column wrap;
 	
-	height: 800px;
+	height: 55vw;
 	justify-content: center;
 	align-items: center;
 }
@@ -90,11 +90,12 @@ header{
 /* the center image for the current path*/
 
 .paths {
-	width: 50%;
+	width: 62vw;
 	display: block;
 	margin: auto;
 	margin-top: 2vw;
 	border: 10px ridge var(--crimson);
+	
 	
 	
 }
