@@ -158,6 +158,11 @@ header{
 	font-size: 3vw;
 }
 
+
+#redDragon {
+	color: red;
+}
+
 /* Death template css */
 
 .deathHeader {
