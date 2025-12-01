@@ -1,0 +1,235 @@
+:root {
+	--crimson: rgb(156 17 17);
+	
+}
+
+
+@font-face{
+	font-family: vastrex-demo;
+	src: url(../../../art/vastrex-demo.regular.otf);
+}
+@font-face{
+	font-family: quintessential-reg;
+	src: url(Quintessential-Regular.ttf);
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+}
+
+/* Everything in the header */
+
+header{
+	background-color: var(--crimson);
+	
+	border: 5px ridge black;
+	height: 150px;
+	display: flex;
+
+	justify-content: space-between;
+	align-items: center;
+	overflow: clip;
+	padding-right: 65px;
+	margin: 0px;
+	
+	
+	
+
+}
+
+.charname {
+	font-family: vastrex-demo, vastrex-demo;
+	font-size: 4vw;
+	justify-content: center;
+	align-items: flex-start;
+	position: relative;
+	color: gold;
+	padding-right: 0px;
+}
+
+
+
+
+
+.logo {
+	width: 15%;
+	top: 10px;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-start;
+	
+	
+}
+
+
+
+.arcText {
+	font-family: vastrex-demo, vastrex-demo;
+	font-weight: bold;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4vw;
+	position: relative;
+	color: gold;
+}
+
+/* Everything below the header*/
+
+.belowhead {
+	background-color: rgb(190, 72, 72);
+	display: flex;
+	flex-flow: column wrap;
+	
+	height: 800px;
+	justify-content: center;
+	align-items: center;
+}
+
+/* the center image for the current path*/
+
+.paths {
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 2vw;
+	border: 10px ridge var(--crimson);
+	
+	
+}
+
+
+
+/* Dialogue and arrows*/
+
+.arrows {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: rgb(190, 72, 72);
+	margin-top: -5vw;
+	
+}
+
+.sideHeading{
+	font-weight: bold;
+	padding-right: 15px;
+	font-size: 16pt;
+}
+
+.sideText {
+	display: flex;
+	font-family: quintessential-reg, quintessential-reg;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+	background-color: rgb(255, 247, 214);
+	border: 10px ridge rgb(255, 208, 91);
+	width: 500px
+	
+	
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.rightlabel {
+	font-family: vastrex-demo, vastrex-demo;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3vw;
+}
+
+.leftlabel {
+	font-family: vastrex-demo, vastrex-demo;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3vw;
+}
+
+/* Death template css */
+
+.deathHeader {
+	background-color: rgb(66, 32, 32);
+	
+	border: 5px ridge black;
+	height: 150px;
+	display: flex;
+
+	justify-content: space-between;
+	align-items: center;
+	overflow: clip;
+	padding-right: 65px;
+	margin: 0px;
+	
+}
+
+.deathBody {
+	display: flex;
+	background-color: gray;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
+}
+
+
+
+.youdied {
+	display: flex;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
+	margin-bottom: -200px;
+	margin-left: -35px;
+}
+
+.startover {
+	display: flex;
+	width: 50%;
+	align-items:center;
+	justify-content:center;
+	flex-flow: column wrap;
+	margin-left: -10px;
+	margin-top: -20px;
+
+	
+}
+
+.dtDiv{
+	display: flex;
+	flex-flow: column wrap;
+	width: 100%;
+}
+
+.deathtext{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	font-family: quintessential-reg, quintessential-reg;
+	text-align: center;
+	font-size: 2vw;
+	position: scroll;
+}
+
+#deathform {
+	display: flex;
+	width: 50%;
+	align-items:center;
+	justify-content:center;
+	flex-flow: column wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+}
